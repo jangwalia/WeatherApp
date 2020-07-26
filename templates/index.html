@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Welcome to Weather App</h1>
+<div class="container">
+    <form action = "/result" method = "GET">
+        
+            <div class="form-group">
+              <label for="City">City</label>
+              <input type="text" class="form-control" id="City" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We Will Show You Current Weather Of The City.</small>
+            </div>
+            <div class="form-group">
+              <label for="Zip">Zip Code</label>
+              <input type="text" class="form-control" id="Zip">
+            </div>
+            <a href="/result" class="btn btn-primary">Show Weather</a>
+          
+      </form>
+
+</div>
+
+{% endblock %}

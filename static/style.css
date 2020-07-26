@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-color:#080459 ;
+    color:wheat;
+    font-size: larger;
+}
+h1{
+    margin-top:100px;
+}
+.container{
+    margin-top: 80px;
+    width:30%;
+}
