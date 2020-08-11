@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>{{message}}</h1>
+    <div class="card" style="width: 18rem;">
+        <img src='http://openweathermap.org/img/wn/{{result.image}}@4x.png' class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="card-title city">{{result.name}}</h5>
+                <h3 class="card-title">{{result.temp}}</h5>
+                <h5 class="card-text">{{result.desc}}.</p>
+                <a href="/" class="btn btn-primary">Go Back</a>
+            </div>
+      </div>
+    
+
+{{super()}}
+{% endblock %}

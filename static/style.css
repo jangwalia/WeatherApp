@@ -11,3 +11,20 @@ h1{
     margin-top: 80px;
     width:30%;
 }
+input{
+    font-family: sans-serif;
+    font-size:30px;
+}
+.btn-group{
+    margin-top: 35px;
+}
+.card{
+    margin: 50px auto;
+    background:white;
+    color:black;
+    border:none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.city{
+    margin-top:-70px;
+}
